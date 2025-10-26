@@ -3235,8 +3235,11 @@ footer .mil-logo {
   margin-top: -40px;
 }
 
-/* Mobile: Disable flip and show both front and quote */
-@media (max-width: 576px) {
+
+
+/* Responsive image adjustments for Culture and Guiding Principles sections */
+@media (max-width: 768px) {
+
   .mil-flip-card {
     perspective: none;
     min-height: auto;
@@ -3265,7 +3268,7 @@ footer .mil-logo {
   }
 
   .mil-flip-card-front {
-    padding-bottom: 20px;
+    padding-bottom: 55px;
   }
 
   .mil-flip-card-back {
@@ -3279,18 +3282,26 @@ footer .mil-logo {
     display: none;
   }
 
+  .mil-flip-card-front h6{
+font-size: 22px;
+  }
+
+  .mil-flip-card-front p{
+    font-size: 14px;
+  }
+
   .mil-flip-card-back .quote-text {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 15px;
   }
 
   .mil-flip-card-back .quote-author {
     font-size: 13px;
   }
-}
 
-/* Responsive image adjustments for Culture and Guiding Principles sections */
-@media (max-width: 768px) {
+  .mil-team-member{
+    margin-bottom: 10px;
+  }
 
   /* Remove top margin on mobile for better layout */
   .mil-image-frame[style*="margin-top"] {
@@ -3313,9 +3324,7 @@ footer .mil-logo {
   .mil-illustration.mil-up {
     margin-bottom: 2rem !important;
   }
-}
 
-@media (max-width: 768px) {
   .container.portfolio-grid {
     display: block !important; /* remove grid */
   }

@@ -893,6 +893,7 @@ a {
   list-style: none;
   padding: 0;
   margin: 0;
+  line-height: 40px;
 }
 
 .community-list li a {
@@ -3263,8 +3264,15 @@ footer .mil-logo {
   .container.portfolio-grid > div {
     width: 100%;
     margin-bottom: 20px;
-    
   }
+
+  
+
+  #kansas-item, #kansas-item a{
+    min-height: 90vw;
+  }
+
+  
 
   .container.portfolio-grid img {
     width: 100%;
@@ -3276,15 +3284,49 @@ footer .mil-logo {
 
   .mil-project-descr {
     padding: 10px 15px;
+    display: flex;
+    justify-content: flex-end !important;
+    padding: 0px !important;
   }
 
-  #portfolio-long-img{
-    object-position: bottom;
-    }
+  .mil-project-descr h4{
+    font-size: 30px;
+  }
+
+   .mil-project-descr p{
+    font-size: 15px !important;
+  }
+
+
+   
+
+   .mil-portfolio-item .overlay {
+  position: absolute;
+  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0 */
+  background: rgba(0, 0, 0, 0.475); /* black overlay with 50% opacity */
+  z-index: 1;
+}
+
+
+  .mil-divider-sm{
+    display: none;
+  }
+
+ #portfolio-long-img {
+  object-position: bottom;
+  transform:  translateY(-30%);
+  transform-origin: center bottom; 
+}
+
+
 
   .hero-vdo{
-    height: 75vh;
+    height: 35vh;
   }
+
+  .mil-project-descr {
+  opacity: 1 !important;
+}
 
   .hero-overlay-1{
   width: 70% !important 

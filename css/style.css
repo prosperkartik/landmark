@@ -3386,6 +3386,20 @@ font-size: 22px;
   transform-origin: center bottom; 
 }
 
+.mil-about-counter.mil-jot{
+padding: 15px !important;
+}
+
+.mil-about-counter h5{
+  font-size: 15px;
+}
+
+.mil-about-counter.mil-jot > .mil-avatar{
+  width: 75px;
+  height: 70px;
+  margin-bottom: 30px !important;
+}
+
 
 
   .hero-vdo{

@@ -3246,7 +3246,7 @@ footer .mil-logo {
   }
 
   .mil-flip-card:hover .mil-flip-card-inner {
-    transform: none;
+    transform: none !important;
   }
 
   .mil-flip-card-inner {
@@ -3265,6 +3265,8 @@ footer .mil-logo {
     transform: none !important;
     backface-visibility: visible;
     -webkit-backface-visibility: visible;
+    max-height: 70vw;
+    min-height: 30vw;
   }
 
   .mil-flip-card-front {
@@ -3283,20 +3285,20 @@ footer .mil-logo {
   }
 
   .mil-flip-card-front h6{
-font-size: 22px;
+font-size: 1.45rem;
   }
 
   .mil-flip-card-front p{
-    font-size: 14px;
+    font-size: 1rem;
   }
 
   .mil-flip-card-back .quote-text {
-    font-size: 14px;
+    font-size: 1rem;
     margin-bottom: 15px;
   }
 
   .mil-flip-card-back .quote-author {
-    font-size: 13px;
+    font-size: 1.2rem;
   }
 
   .mil-team-member{
@@ -3417,7 +3419,36 @@ padding: 15px !important;
 .hero-overlay-2{
   width: 80% !important 
 }
+
+.mil-team-member:hover{
+  transform: none;
 }
+
+.mil-portfolio-item-2 .mil-project-descr * {
+  opacity: 1 !important;
+  padding-right: 10px;
+}
+
+.mil-portfolio-item-2 .mil-project-descr .mil-content-bottom img {
+  width: 50% !important;
+}
+
+.mil-portfolio-item-2 .mil-project-descr .mil-content-bottom .mil-link.mil-upper .mil-arrow.mil-light, .mil-portfolio-item-2 .mil-project-descr .mil-content-bottom .mil-link.mil-upper .mil-arrow.mil-light img{
+  padding-right: 0px !important;
+}
+
+
+
+.mil-portfolio-item-2 .mil-project-descr .mil-content-bottom h3{
+  font-size: 1.25rem;
+} 
+}
+
+
+
+
+
+
 
 .hero-overlay-1{
   width: 40%
@@ -3432,4 +3463,8 @@ padding: 15px !important;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap:20px
+}
+
+.col-sm-6.col-lg-4.mil-up{
+  margin-bottom: 20px;
 }

@@ -3382,11 +3382,7 @@ font-size: 1.45rem;
     display: none;
   }
 
- #portfolio-long-img {
-  object-position: bottom;
-  transform:  translateY(-30%);
-  transform-origin: center bottom; 
-}
+ 
 
 .mil-about-counter.mil-jot{
 padding: 15px !important;

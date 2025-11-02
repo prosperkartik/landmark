@@ -302,6 +302,7 @@ a {
 .mil-light,
 .mil-light a {
   color: #fff !important;
+  transition: 0.4s;
 }
 
 .mil-accordion-group.mil-dark .mil-accordion-menu,
@@ -673,6 +674,9 @@ a {
   margin-bottom: 40px;
 }
 
+.container.portfolio-grid .mil-portfolio-item h4{
+  color:#e5e5e5!important
+}
 .mil-mb-60,
 .mil-mb-80 {
   margin-bottom: 60px;

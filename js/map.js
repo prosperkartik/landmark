@@ -27,7 +27,7 @@ Promise.all([
 
   // State to cities mapping from footer
   const stateCities = {
-    California: ["Alameda, CA", "Dixon, CA", "San Francisco, CA"],
+    California: ["Alameda, CA", "Dixon, CA", "San Francisco, CA","Napa, CA", "Novato, CA", "San Rafael, CA"],
     "New Mexico": ["Albuquerque, NM"],
     Kansas: ["Mission, KS", "Olathe, KS", "Overland Park, KS", "Topeka, KS"],
     Missouri: ["Kansas City, MO"],

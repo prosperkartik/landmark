@@ -1674,7 +1674,12 @@ a {
 }
 
 .mil-portfolio-item-2 .mil-project-descr .mil-content-bottom img {
-  width: 90% !important;
+  /* width: 90% !important; */
+  object-fit: contain; 
+  object-position: center;
+  background-repeat: no-repeat;
+  width: 296px; 
+  height: 63px;
   max-width: 325px;
   margin-bottom: 15px;
   margin-top: 15px;

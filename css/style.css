@@ -1625,16 +1625,46 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.mil-portfolio-item-2 .mil-project-descr * {
+@media (min-width: 768px){
+
+  
+.mil-portfolio-item-2 .mil-project-descr{
+  padding: 0px;
+}
+
+  .mil-portfolio-item-2:hover .mil-project-descr{
+    padding: 30px;
+    transition-delay: 0.1s;
+  }
+  
+  .mil-content-bottom img{
+    transform: translateY(130%) ;
+    
+  }
+  
+  
+  .mil-portfolio-item-2:hover .mil-project-descr .mil-content-bottom * {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.1s;
+}
+
+.mil-portfolio-item-2 .mil-project-descr .mil-content-bottom *:not(img) {
   opacity: 0;
   transition-delay: 0s;
+
 }
+
+}
+
+
+
+
 
 .mil-menu-btn,
 .mil-portfolio-item-2 .mil-category,
@@ -1655,10 +1685,6 @@ a {
   text-transform: uppercase;
 }
 
-.mil-portfolio-item-2:hover .mil-project-descr * {
-  opacity: 1;
-  transition-delay: 0.3s;
-}
 
 /* Property card layout improvements */
 .mil-portfolio-item-2 .mil-project-descr {
@@ -1675,11 +1701,11 @@ a {
 
 .mil-portfolio-item-2 .mil-project-descr .mil-content-bottom img {
   /* width: 90% !important; */
-  object-fit: contain; 
+  /* object-fit: contain; 
   object-position: center;
   background-repeat: no-repeat;
   width: 296px; 
-  height: 63px;
+  height: 63px; */
   max-width: 325px;
   margin-bottom: 15px;
   margin-top: 15px;
